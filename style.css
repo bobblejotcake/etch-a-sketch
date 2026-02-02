@@ -1,0 +1,15 @@
+*{
+    box-sizing: content-box;
+}
+
+.container{
+    display:flex;
+    flex-flow: row wrap;
+    max-width: 960px;
+}
+
+.default{
+    height:50px;
+    width:50px;
+    border:5px solid black;
+}
